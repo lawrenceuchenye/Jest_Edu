@@ -4,7 +4,8 @@ const functions={
     createUser:()=>{
         const user={firstName:"Law",lastName:"Uche"}
         return user;
-    }
+    },
+    users:["drake","stud","rapper","groovy"]
 };
 
 module.exports=functions;

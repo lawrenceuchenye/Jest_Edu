@@ -15,3 +15,7 @@ test("To be Law Uche",()=>{
      expect(functions.createUser()).toEqual({firstName:"Law",lastName:"Uche"});
    });
 
+test("To Contain Gg",()=>{
+       expect(functions.users).toContain("groovy");
+});
+
