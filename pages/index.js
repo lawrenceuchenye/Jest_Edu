@@ -10,7 +10,7 @@ export default function Home(){
   return (
     <div>
       <div className="header">
-         <h1>{count}</h1>
+         <h1 data-testid="count">{count}</h1>
          </div>
           <div className="btns_div">
              <button onClick={()=>setCount(count+1)}>Add</button>
